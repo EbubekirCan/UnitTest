@@ -6,6 +6,8 @@ public class StringModify {
         // AABC --> BC  , ABC --> BC , A  --> "" , AA --> ""
 
     public String deleteIfItIsInFirstTwoPosition(String str) { //A
+        System.out.println("----------------------");
+        System.out.println("----------------------");
 
         if(str.length()<=2){ // A
             return str.replace("A", "");

@@ -10,8 +10,10 @@ public class UserService {
 
     // !!! test edilecek method
     public String getUserName(int userId) {
-
+        System.out.println("----------------------");
+        System.out.println("----------------------");
         return userManager.getUserName(userId) + " sonuc";
+
 
     }
 }
